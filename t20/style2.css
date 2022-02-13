@@ -1,0 +1,33 @@
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 100px auto;
+ 
+}
+.box{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color:white;
+    font-family: Tahoma;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px navy;
+    transition: 0.5s ease;
+}
+.free{
+    background: rgb(0,130,206);
+}
+
+.free:hover{
+    transform: rotate(10deg);
+    background: lime;
+}
+.reserve{
+    background: red;
+}
